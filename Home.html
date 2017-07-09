@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8" />
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="Content/bootstrap.css" />
+    <link rel="stylesheet" href="Content/Site.css" />
+</head>
+
+<body>
+    <header class="container">
+        <h2>Art of creating responsive layout</h2>
+    </header>
+
+    <nav class="navbar navbar-inverse container-fluid navbar-fixed-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">
+                    Toggle navigation
+                </span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="http://google.com">Bootstrap Demo</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="Home.html">
+                        <span class="glyphicon glyphicon-home"></span>Home
+                    </a>
+                </li>
+                <li><a href="#"><span class="glyphicon glyphicon-king"></span>  
+                    About</a>
+                </li>
+            </ul>
+
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group-sm">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-success btn-sm">Go!</button>
+                        </span>
+                    </div>
+                </div>
+            </form>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon 
+                    glyphicon-log-in"></span> Login</a></li>
+                <li><a href="#"><span class="glyphicon 
+                    glyphicon-user"></span> Register</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div class='row'>
+            <div class="col-md-3 leftNav">
+                LeftNavigation
+            </div>
+            <div class="col-md-6 content">
+
+                <div class="jumbotron">
+                    <h2>Bootstrap</h2>
+                    <img class="img-responsive img-circle" src="http://blog.room34.com/wp-content/uploads/underdog/logo.thumbnail.png" />
+                    <p class="text-justify">Bootstrap is HTML, CSS and JavaScript framework for developing responsive, mobile first websites. Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.</p>
+
+                    <p><a class="btn btn-success btn-default" href="#">Start Learning</a></p>
+                </div>
+
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://www.youtube.com/embed/afsdfsdSg5l_Eo" width="425" height="350"></iframe>
+                </div>
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Column Offset using Bootstrap</h2>
+                    </div>
+                    <div class="panel-body">
+                        This article describes the art of creating the responsive design layout which can render well on different device sizes.
+
+                        <table class="table table-responsive table-striped table-condensed table-hover">
+                            <tbody>
+                                <tr class='success'>
+                                    <td>Class name</td>
+                                    <td>Description</td>
+                                </tr>
+                                <tr>
+                                    <td>table</td>
+                                    <td>Define a table</td>
+                                </tr>
+                                <tr>
+                                    <td>table-responsive</td>
+                                    <td>Class to make a table responsive</td>
+                                </tr>
+                                <tr>
+                                    <td>table-striped</td>
+                                    <td>Make a table like as stripe</td>
+                                </tr>
+                                <tr>
+                                    <td>table-hover</td>
+                                    <td>Create hover effect</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="panel-footer">
+                        <div class="row">
+                            <div class="col-xs-9">
+                                <p>Put tags and view count</p>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="#">Read More..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-md-3 relatedContent">
+                Relate content
+            </div>
+        </div>
+    </section>
+    <footer class="container">
+        <h2>Footer</h2>
+    </footer>
+    <script type="text/javascript" src='Scripts/jquery-3.2.1.min.js'></script>
+    <script type="text/javascript" src='Scripts/bootstrap.js'></script>
+</body>
+
+</html>
